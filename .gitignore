@@ -1,2 +1,6 @@
 fuzzing/findings
 fuzzing/inihfuzz
+
+*.vcxproj
+*.vcxproj.filters
+out/
