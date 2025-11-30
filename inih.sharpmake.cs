@@ -6,7 +6,7 @@ public class HdnCodeExternalINIHProject : BaseCppProject
 {
     public HdnCodeExternalINIHProject()
     {
-        Name = "hdn.code.external.inih";
+        Name = "dm.code.external.inih";
         SourceRootPath = @"[project.SharpmakeCsPath]\src";
         AddTargets(TargetUtil.DefaultTarget);
     }
