@@ -2,9 +2,9 @@ using System.IO; // For Path.Combine
 using Sharpmake; // Contains the entire Sharpmake object library.
 
 [Generate]
-public class HdnCodeExternalINIHProject : BaseCppProject
+public class DmCodeExternalINIHProject : BaseCppProject
 {
-    public HdnCodeExternalINIHProject()
+    public DmCodeExternalINIHProject()
     {
         Name = "dm.code.external.inih";
         SourceRootPath = @"[project.SharpmakeCsPath]\src";
